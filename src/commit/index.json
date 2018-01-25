@@ -1,0 +1,33 @@
+{
+  "types": {
+    "feat": {
+      "description": "新功能"
+    },
+    "fix": {
+      "description": "修复bug"
+    },
+    "test": {
+      "description": "测试"
+    },
+    "docs": {
+      "description": "文档变化"
+    }
+  },
+  "parts":{
+    "cell":{
+      "description": "单元格"
+    },
+    "rc":{
+      "description": "行或列"
+    },
+    "sheet":{
+      "description": "工作表"
+    },
+    "flow":{
+      "description": "与项目相关的配置"
+    },
+    "other":{
+      "description": "其他"
+    }
+  }
+}
