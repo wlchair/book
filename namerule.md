@@ -8,15 +8,15 @@
 
 ### 模块
 - `topbar`，`toolbar`
-- `book`，`table`，`col`，`row`，`cell`，`line`
-- `sheet`
+- `book`，`sheet`，`col`，`row`，`cell`，`line`
+- `tab`
 - `operate`
 
 ### 类型
 - `head`
 
 ### 职能
-- `box`，`panel`（结构）
+- `panel`（结构）
 - `group`（容器）
 - `item`（内容）
 
