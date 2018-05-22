@@ -63,5 +63,11 @@ coveralls.yml文件不会上传到服务器，本地测试需要用到。
 
 - 检查所有js代码格式，不合格的格式会在控制台给出提示
 
+# GIT常用命令
+
+- 撤销本地提交的commit: `git reset {id}`
+- 撤销提交，所有代码恢复到没改之前: `git reset –hard {id}`
+- 发现commit被撤销错误了，想再次恢复: 通过 `git reflog` 查看要恢复的信息
+再通过 `git reflog HEAD@{0}: HEAD~1`
 
 
