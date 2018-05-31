@@ -65,9 +65,14 @@ coveralls.yml文件不会上传到服务器，本地测试需要用到。
 
 # GIT常用命令
 
-- 撤销本地提交的commit: `git reset {id}`
+- 撤销本地提交的`commit`: `git reset {id}`
+
 - 撤销提交，所有代码恢复到没改之前: `git reset –hard {id}`
+
 - 发现commit被撤销错误了，想再次恢复: 通过 `git reflog` 查看要恢复的信息
 再通过 `git reflog HEAD@{0}: HEAD~1`
+
+- 如果代码`add`，但是没有`commit`，然而被执行`reset`操作后，执行命令：`git fsck --lost-found`，
+进入`.git/lost-found/other/`里面找回丢失的文件
 
 
