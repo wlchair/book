@@ -66,10 +66,10 @@
 ```
 
 # 代码 - 命名规范
-- getters函数名按照Camel-Case命名法，首单词全部小写，其余单词首字母大写
-- getters函数中不带get前缀
-- actions/mutations函数名全部大写
-- actions行为缺省表示change
+- `getters`函数名按照Camel-Case命名法，首单词全部小写，其余单词首字母大写
+- `getters`函数中不带get前缀
+- `actions/mutations`函数名全部大写
+- `actions`行为缺省表示`change`
 - 名字全部使用英文及缩写形式表示、不能出现拼音
 
 ## 分类
@@ -101,7 +101,7 @@
 
 ## mutations
 
-`mutations`: `M_模块名_操作_[? 操作对象属性]`
+`mutations`: `M _ 模块名 _ 操作 _ [? 操作对象属性]`
 
 ### 示例
 
@@ -110,7 +110,7 @@
 
 ## actions
 
-`actions`: `A_模块名_操作 || 操作对象属性`
+`actions`: `A _ 模块名 _ 操作 || 操作对象属性`
 
 ### 示例
 
